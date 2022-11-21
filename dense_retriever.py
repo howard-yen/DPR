@@ -54,6 +54,7 @@ def generate_question_vectors(
     n = len(questions)
     query_vectors = []
 
+    time0 = time.time()
     with torch.no_grad():
         for j, batch_start in enumerate(range(0, n, bsz)):
             batch_questions = questions[batch_start : batch_start + bsz]
@@ -72,8 +73,8 @@ def generate_question_vectors(
                 batch_tensors = [tensorizer.text_to_tensor(q) for q in batch_questions]
 
             # TODO: this only works for Wav2vec pipeline but will crash the regular text pipeline
-            max_vector_len = max(q_t.size(1) for q_t in batch_tensors)
-            min_vector_len = min(q_t.size(1) for q_t in batch_tensors)
+            max_vector_len = max(q_t.size(0) for q_t in batch_tensors)
+            min_vector_len = min(q_t.size(0) for q_t in batch_tensors)
 
             if max_vector_len != min_vector_len:
                 # TODO: _pad_to_len move to utils
@@ -104,6 +105,7 @@ def generate_question_vectors(
 
     query_tensor = torch.cat(query_vectors, dim=0)
     logger.info("Total encoded queries tensor %s", query_tensor.size())
+    logger.info(f"Encoding query took {time.time()-time0}")
     assert query_tensor.size(0) == len(questions)
     return query_tensor
 

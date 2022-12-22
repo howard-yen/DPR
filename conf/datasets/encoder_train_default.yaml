@@ -36,104 +36,104 @@ nq_test_open_bm25:
   _target_: dpr.data.biencoder_data.JsonQADataset
   file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test.json
 
-nq_train_open_1:
+nq_train_open_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_1.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_short.json
 
-nq_dev_open_1:
+nq_dev_open_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_1.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_short.json
 
-nq_test_open_1:
+nq_test_open_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_1.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_short.json
 
-nq_train_open_bm25_1:
+nq_train_open_bm25_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_1.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_short.json
 
-nq_dev_open_bm25_1:
+nq_dev_open_bm25_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_1.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_short.json
 
-nq_test_open_bm25_1:
+nq_test_open_bm25_short:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_short.json
 
 
-nq_train_open_2:
+nq_train_open_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_medium.json
 
-nq_dev_open_2:
+nq_dev_open_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_medium.json
 
-nq_test_open_2:
+nq_test_open_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_medium.json
 
-nq_train_open_bm25_2:
+nq_train_open_bm25_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_medium.json
 
-nq_dev_open_bm25_2:
+nq_dev_open_bm25_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_medium.json
 
-nq_test_open_bm25_2:
+nq_test_open_bm25_medium:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_2.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_medium.json
 
 
-nq_train_open_3:
+nq_train_open_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_yesno.json
 
-nq_dev_open_3:
+nq_dev_open_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_yesno.json
 
-nq_test_open_3:
+nq_test_open_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_yesno.json
 
-nq_train_open_bm25_3:
+nq_train_open_bm25_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_yesno.json
 
-nq_dev_open_bm25_3:
+nq_dev_open_bm25_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_yesno.json
 
-nq_test_open_bm25_3:
+nq_test_open_bm25_yesno:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_3.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_yesno.json
 
 
-nq_train_open_4:
+nq_train_open_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_train_long.json
 
-nq_dev_open_4:
+nq_dev_open_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_dev_long.json
 
-nq_test_open_4:
+nq_test_open_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_test_long.json
 
-nq_train_open_bm25_4:
+nq_train_open_bm25_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_train_long.json
 
-nq_dev_open_bm25_4:
+nq_dev_open_bm25_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_dev_long.json
 
-nq_test_open_bm25_4:
+nq_test_open_bm25_long:
   _target_: dpr.data.biencoder_data.JsonQADataset
-  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_4.json
+  file: /n/fs/nlp-hyen/DPR/retriever_nqopen/dpr_bm25_test_long.json
 
 
 trivia_train:
